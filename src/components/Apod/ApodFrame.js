@@ -6,7 +6,7 @@ export function ApodFrame (props) {
     <Col>
       <Card>
         <CardBody>
-          <CardTitle>The APOD for {props.date} is {props.title}</CardTitle>
+          <CardTitle>The APOD for {props.date} is "{props.title}"</CardTitle>
           <CardImg src={props.src} alt={props.title} width="100%" />
           <CardText>{props.description}</CardText>
         </CardBody>
